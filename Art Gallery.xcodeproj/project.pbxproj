@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CEA035B2198C5D1005DAEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA035A2198C5D1005DAEFF /* AppDelegate.swift */; };
+		4CEA035D2198C5D1005DAEFF /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA035C2198C5D1005DAEFF /* PaintingViewController.swift */; };
+		4CEA03602198C5D1005DAEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA035E2198C5D1005DAEFF /* Main.storyboard */; };
+		4CEA03652198C5D2005DAEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA03632198C5D2005DAEFF /* LaunchScreen.storyboard */; };
+		4CEA036D2198C657005DAEFF /* PaintingAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA036C2198C657005DAEFF /* PaintingAssets.xcassets */; };
+		4CEA036F2198CDE5005DAEFF /* PaintingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA036E2198CDE5005DAEFF /* PaintingTableViewCell.swift */; };
+		4CEA03712198CEFC005DAEFF /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA03702198CEFC005DAEFF /* Painting.swift */; };
+		4CEA03732198CF38005DAEFF /* PaintingTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA03722198CF38005DAEFF /* PaintingTableViewCellDelegate.swift */; };
+		4CEA03752198D017005DAEFF /* PaintingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA03742198D017005DAEFF /* PaintingModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CEA03572198C5D1005DAEFF /* Art Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEA035A2198C5D1005DAEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CEA035C2198C5D1005DAEFF /* PaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
+		4CEA035F2198C5D1005DAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CEA03642198C5D2005DAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CEA03662198C5D2005DAEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEA036C2198C657005DAEFF /* PaintingAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PaintingAssets.xcassets; sourceTree = "<group>"; };
+		4CEA036E2198CDE5005DAEFF /* PaintingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCell.swift; sourceTree = "<group>"; };
+		4CEA03702198CEFC005DAEFF /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		4CEA03722198CF38005DAEFF /* PaintingTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		4CEA03742198D017005DAEFF /* PaintingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CEA03542198C5D1005DAEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CEA034E2198C5D1005DAEFF = {
+			isa = PBXGroup;
+			children = (
+				4CEA03592198C5D1005DAEFF /* Art Gallery */,
+				4CEA03582198C5D1005DAEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CEA03582198C5D1005DAEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CEA03572198C5D1005DAEFF /* Art Gallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CEA03592198C5D1005DAEFF /* Art Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				4CEA035A2198C5D1005DAEFF /* AppDelegate.swift */,
+				4CEA035C2198C5D1005DAEFF /* PaintingViewController.swift */,
+				4CEA035E2198C5D1005DAEFF /* Main.storyboard */,
+				4CEA03702198CEFC005DAEFF /* Painting.swift */,
+				4CEA03722198CF38005DAEFF /* PaintingTableViewCellDelegate.swift */,
+				4CEA03742198D017005DAEFF /* PaintingModel.swift */,
+				4CEA036E2198CDE5005DAEFF /* PaintingTableViewCell.swift */,
+				4CEA03632198C5D2005DAEFF /* LaunchScreen.storyboard */,
+				4CEA036C2198C657005DAEFF /* PaintingAssets.xcassets */,
+				4CEA03662198C5D2005DAEFF /* Info.plist */,
+			);
+			path = "Art Gallery";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CEA03562198C5D1005DAEFF /* Art Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEA03692198C5D2005DAEFF /* Build configuration list for PBXNativeTarget "Art Gallery" */;
+			buildPhases = (
+				4CEA03532198C5D1005DAEFF /* Sources */,
+				4CEA03542198C5D1005DAEFF /* Frameworks */,
+				4CEA03552198C5D1005DAEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Gallery";
+			productName = "Art Gallery";
+			productReference = 4CEA03572198C5D1005DAEFF /* Art Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CEA034F2198C5D1005DAEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Lotanna;
+				TargetAttributes = {
+					4CEA03562198C5D1005DAEFF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4CEA03522198C5D1005DAEFF /* Build configuration list for PBXProject "Art Gallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CEA034E2198C5D1005DAEFF;
+			productRefGroup = 4CEA03582198C5D1005DAEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CEA03562198C5D1005DAEFF /* Art Gallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CEA03552198C5D1005DAEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEA036D2198C657005DAEFF /* PaintingAssets.xcassets in Resources */,
+				4CEA03652198C5D2005DAEFF /* LaunchScreen.storyboard in Resources */,
+				4CEA03602198C5D1005DAEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CEA03532198C5D1005DAEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEA035D2198C5D1005DAEFF /* PaintingViewController.swift in Sources */,
+				4CEA03752198D017005DAEFF /* PaintingModel.swift in Sources */,
+				4CEA035B2198C5D1005DAEFF /* AppDelegate.swift in Sources */,
+				4CEA036F2198CDE5005DAEFF /* PaintingTableViewCell.swift in Sources */,
+				4CEA03712198CEFC005DAEFF /* Painting.swift in Sources */,
+				4CEA03732198CF38005DAEFF /* PaintingTableViewCellDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CEA035E2198C5D1005DAEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CEA035F2198C5D1005DAEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CEA03632198C5D2005DAEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CEA03642198C5D2005DAEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CEA03672198C5D2005DAEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CEA03682198C5D2005DAEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CEA036A2198C5D2005DAEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lotanna.Art-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CEA036B2198C5D2005DAEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lotanna.Art-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CEA03522198C5D1005DAEFF /* Build configuration list for PBXProject "Art Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEA03672198C5D2005DAEFF /* Debug */,
+				4CEA03682198C5D2005DAEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEA03692198C5D2005DAEFF /* Build configuration list for PBXNativeTarget "Art Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEA036A2198C5D2005DAEFF /* Debug */,
+				4CEA036B2198C5D2005DAEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CEA034F2198C5D1005DAEFF /* Project object */;
+}
